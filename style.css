@@ -54,5 +54,36 @@ header {
     margin-bottom: 1rem;
     opacity: 0.9;
 }
+/*Container de categorias*/
+
+.container-categorias{
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Estilização dos cards*/
+.card-container {
+    background-color: var(--branco-ceep);
+    border-radius: 12px;
+    padding: 2rem;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-bottom: 8px solid var(--vermelho--ceep);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+/*Você colocou card-container em vez de card-categoria - Sempre que for programar os card lembrar disso para não dar erro*/
+.card-container.subsequente {
+    border-color: var(--amarelo--ceep);
+}
+.card-container:hover{
+    transform: translateY(-10px);
+}
+
 
 
