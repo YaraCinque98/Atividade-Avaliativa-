@@ -2,8 +2,8 @@
 
 
 :root{
-    --vermelho--ceep:#cc0000; 
-    --amarelo--ceep: #fcc200;
+    --vermelho-ceep:#cc0000; 
+    --amarelo-ceep: #fcc200;
     --cinza-claro: #c0c0c0;
     --branco-ceep: #f0f8ff;
     --texto: #333;
@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 4px solid var(--vermelho--ceep);
+    border-bottom: 4px solid var(--vermelho-ceep);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1) 
 }
 
@@ -43,7 +43,7 @@ header {
 /*Secao hero - banner principal, com gradiente*/
 
 .hero{
-    background: linear-gradient(135deg, var(--vermelho--ceep) 0%, #036 100%) ;
+    background: linear-gradient(135deg, var(--vermelho-ceep) 0%, #036 100%) ;
     color: var(--branco-ceep);
     padding:4rem 5%; 
     text-align: center;
@@ -74,13 +74,15 @@ header {
     max-width: 500px;
     text-align: center;
     transition: transform 0.3s ease;
-    border-bottom: 8px solid var(--vermelho--ceep);
+    border-bottom: 8px solid var(--vermelho-ceep);
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
-/*Você colocou card-container em vez de card-categoria - Sempre que for programar os card lembrar disso para não dar erro*/
 .card-container.subsequente {
-    border-color: var(--amarelo--ceep);
+    border-color: var(--amarelo-ceep);
+
 }
+/*Você colocou card-container em vez de card-categoria - Sempre que for programar os card lembrar disso para não dar erro*/
+
 .card-container:hover{
     transform: translateY(-10px);
 }
