@@ -127,6 +127,25 @@ header {
     text-decoration: none;
     margin-right: 15px;
     padding: 5px 10px;
+    border: 1px solid var(--amarelo-ceep);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.footer-socials a:hover{
+    background-color: var(--amarelo-ceep);
+    color: #2c3e50;
 }
 
-
+.footer-copy{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*responsividade*/
+@media (max-width: 768){
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
