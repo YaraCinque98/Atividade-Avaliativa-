@@ -32,8 +32,10 @@
         </div>
 
         <nav>
-            <i class="fas fa-wheelchair" title="Acessibilidade" style="margin-right: 15px; cursor:pointer"></i>
-            <i class="fas fa-hands-asl-interpreting" title="Libras" style="cursor : pointer"></i>
+            <div class="header-actions"></div>
+            <a href="https://www.areadoaluno.seed.pr.gov.br/servicosaoaluno/pages/publico/login.jsf"
+                target = "_blank"
+            class= "btn-matricula"> Matricule-se PR</a>
         </nav>
     </header>
     <!--Area dividida-->
@@ -147,9 +149,19 @@
     <div class="footer-copy"
     <p>&copy; Centro de Educação Profissional CEEP Cianorte - 2026</p>
 </div>
- 
-
     </footer>
+<!-- Início do VLibras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!-- Fim do VLibras -->
 </body>
 
 </html>
