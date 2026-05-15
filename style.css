@@ -166,8 +166,20 @@ header {
     .footer-container{
         flex-direction: column;
         text-align: center;
+    } 
+    .cursos-detalhes{
+        padding: 40px 15px;
     }
+     .container-titulo h2 {
+        font-size: 1.6rem;
+    }
+
+    .detalhe-item {
+        padding: 20px;
 }
+}
+
+
 
 /*página subsequente*/
 
